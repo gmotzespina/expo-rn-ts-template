@@ -41,6 +41,7 @@ Some of the files and directories that I've addded are not necessary, it is just
 - tslint
 - tslint-config-prettier
 - tslint-react
+- husky
 
 ## Extra configuration
 
