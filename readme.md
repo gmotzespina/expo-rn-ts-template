@@ -20,10 +20,10 @@ Some of the files and directories that I've addded are not necessary, it is just
 
 **Added files**
 
-`.prettierrc.json` - Configuration to auto ident anf format the files
-`tslin.json` - Configuration that checks for linting errors in typescript
-`scripts/run_setup.sh` - Bash script that installs `commitlint` globally on your machine. More information about `commitlint` further down on this file.
-`commitlint.config.js` - Commitlint configuration file.
+- `.prettierrc.json` - Configuration to auto ident anf format the files
+- `tslin.json` - Configuration that checks for linting errors in typescript
+- `scripts/run_setup.sh` - Bash script that installs `commitlint` globally on your machine. More information about `commitlint` further down on this file.
+- `commitlint.config.js` - Commitlint configuration file.
 - `/.github/workflows/nodejs.yml` - Basic workflow that checks that the linting of your commit is correct.
 
 ## Added dependencies
