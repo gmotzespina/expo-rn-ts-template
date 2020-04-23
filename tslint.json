@@ -1,0 +1,28 @@
+{
+    "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+    "linterOptions": {
+        "exclude": [
+            "**/*.json",
+            "node_modules/**/*",
+            "coverage/**/*",
+            "build",
+            "docs",
+            "src/serviceWorker.ts",
+            "src/setupTests.ts"
+        ]
+    },
+    "rules": {
+        "interface-name": [true, "never-prefix"],
+        "jsx-no-lambda": false,
+        "jsx-boolean-value": false,
+        "max-classes-per-file": false,
+        "member-access": false,
+        "no-any": true,
+        "no-var-requires": false,
+        "no-unused-modules": true,
+        "no-reference": false,
+        "no-var-keyword": true,
+        "prefer-const": true,
+        "unnecessary-else": true
+    }
+}
