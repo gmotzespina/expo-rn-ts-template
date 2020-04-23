@@ -14,7 +14,9 @@ Some of the files and directories that I've addded are not necessary, it is just
 
 - `/assets/fonts`: Here is where I save the fonts that I'll use.
 
-- `/.github`: I've added a Pull Request template as well as two different Issue templates. One Issue template is to report a bug and the other one is for a feature request.
+- `/.github/ISSUE_TEMPLATES`: I've added two different Issue templates. One Issue template is to report a bug and the other one is for a feature request.
+
+- `/.github/workflows`: Here is where you can add all your workflow files to trigger github actions.
 
 **Added files**
 
@@ -22,6 +24,7 @@ Some of the files and directories that I've addded are not necessary, it is just
 `tslin.json` - Configuration that checks for linting errors in typescript
 `scripts/run_setup.sh` - Bash script that installs `commitlint` globally on your machine. More information about `commitlint` further down on this file.
 `commitlint.config.js` - Commitlint configuration file.
+- `/.github/workflows/nodejs.yml` - Basic workflow that checks that the linting of your commit is correct.
 
 ## Added dependencies
 
