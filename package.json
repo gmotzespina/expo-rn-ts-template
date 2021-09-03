@@ -16,7 +16,7 @@
         "@react-navigation/native": "^5.0.5",
         "@react-navigation/stack": "^5.0.5",
         "i18n-js": "^3.5.1",
-        "immer": "^4.0.0",
+        "immer": "^9.0.6",
         "lodash": "4.17.14",
         "native-base": "^2.13.8",
         "expo": "~37.0.3",
